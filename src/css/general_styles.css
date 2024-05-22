@@ -1,0 +1,139 @@
+/* styles.css */
+body {
+   height: 100vh;
+   background-color:#87CEFA;
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+.container {
+   display: flex;
+   width: 100%;
+   height: 100%;
+}
+
+.left-container {
+   width: 60%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   padding: 20px;
+}
+
+.right-container {
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   padding: 20px;
+   padding-top: 0;
+}
+
+.balloons {
+   display: flex;
+   justify-content: space-evenly;
+   width: 100%;
+   height: 50%;
+   margin-bottom: 20px;
+}
+
+.page-switch {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 30%;
+   left: 50%;
+   height: 30%;
+   width: auto;
+   transform: translate(-50%, -50%);
+   padding: 10px;
+   border-radius: 5px;
+}
+
+.page-switch h1 {
+   font-family: "Poetsen One", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 50px;
+   color:white;
+   padding-bottom: 10px;
+   -webkit-text-stroke: 2.5px black;
+   text-align: center;
+}
+
+.balloon {
+   width: auto;
+   height: 100%;
+   position: relative;
+}
+
+.balloon img {
+   width: auto;
+   height: 100%;
+}
+
+
+.home-box {
+   border-radius: 10px;
+   font-size: 24px;
+   width: 90%;
+   height: 50%;
+   text-align: center;
+}
+
+.home-box h1 {
+   font-family: "Poetsen One", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 50px;
+   color:white;
+   -webkit-text-stroke: 2.5px black;
+}
+
+.home-box p {
+   font-family: "Open Sans", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-variation-settings:
+      "wdth" 100;
+}
+
+.balloon-image {
+   height: 80%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.balloon-image img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.icons {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: flex-start;
+   width: 100%;
+   height: 20%;
+}
+
+.icon {
+   padding-top: 10px;
+   width: 30%;
+   height: 100%;
+   position: relative;
+   text-align: center;
+}
+
+.icon img{
+   width: auto;
+   height: 100%;
+   object-fit: cover;
+}
