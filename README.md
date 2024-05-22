@@ -2,4 +2,4 @@
 
 ## A website of three pages with some information and facts about myself! It's designed with the theme "Circles", so try to spot the circles in the website!
 
-<img src="images/ScreenShot.png" alt="A screenshot of the home page">
+![A screenshot of the home page](./images/ScreenShot.png)
